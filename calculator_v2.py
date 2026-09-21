@@ -4,3 +4,6 @@ operation = input("Enter operation (+, -, *, /): ")
 if operation == "+":
     result = first_number + second_number
     print("Result:", result)
+elif operation == "-":
+    result = first_number - second_number
+    print("Result:", result)
